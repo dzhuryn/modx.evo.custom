@@ -9,6 +9,7 @@ if (!defined('E_USER_DEPRECATED')) define('E_USER_DEPRECATED', 16384);
 
 class DocumentParser {
     var $apiVersion;
+    /** @var DBAPI data */
     var $db; // db object
     var $event, $Event; // event object
     var $pluginEvent;
